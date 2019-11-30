@@ -1,0 +1,74 @@
+.navbar{
+ 
+  border-radius:8px;
+  grid-template-columns: 300px;
+
+  grid-template-rows: 210px 210px 80px;
+  grid-template-areas: "image" "text" "stats";
+  font-family: roboto;
+  
+ 
+}
+ 
+.hd1{
+ 
+    color:#fff;
+ 
+}
+.search {
+    width: 135%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 135%;
+    border: 2px solid rgb(154, 164, 165);
+    border-right: none;
+    padding: 4px;
+    height: 30px;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: rgb(60, 65, 65);
+  }
+  
+  .searchButton {
+    width: 30px;
+    height: 20x;
+    border: 1px solid rgb(144, 156, 158);
+    background: rgb(132, 141, 143);
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-40%, -40%);
+  }
+  .as{
+
+  
+  position: relative;
+  padding: 190px 0px 120px 0px;
+  background: url('../components/img/bglog.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  
+
+  
+
+  
+ 
+  
