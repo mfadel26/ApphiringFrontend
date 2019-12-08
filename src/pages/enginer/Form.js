@@ -61,7 +61,7 @@ class Form extends Component {
           
         const response = await axios({
           method: 'put',
-          url: 'http://localhost:4000/myhire/edit',
+          url: 'http://54.161.87.89:7000/myhire/edit',
           data: formData
           // data: {
           //     name: this.state.name,
@@ -98,7 +98,7 @@ class Form extends Component {
           
         const response = await axios({
           method: 'post',
-          url: 'http://localhost:4000/myhire/form',
+          url: 'http://54.161.87.89:7000/myhire/form',
           data: formData
           // data: {
           //     name: this.state.name,

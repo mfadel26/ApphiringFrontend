@@ -24,7 +24,7 @@ class Editprofile extends Component {
   handlerSubmit = async (event) => {
     event.preventDefault()
     console.log(this.state)
-    await axios.post('http://localhost:5000/company/', this.state.form)
+    await axios.post('http://54.161.87.89:7000/company/', this.state.form)
     this.props.history.push('/card')
   }
   render() {
