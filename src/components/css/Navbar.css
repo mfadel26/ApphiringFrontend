@@ -1,10 +1,9 @@
+
 .navbar{
  
-  border-radius:8px;
+  border-radius:1px;
   grid-template-columns: 300px;
-
-  grid-template-rows: 210px 210px 80px;
-  grid-template-areas: "image" "text" "stats";
+  background: url('../../components/img/nav2.jpg'); 
   font-family: roboto;
   
  
@@ -12,18 +11,18 @@
  
 .hd1{
  
-    color:#fff;
+    color:rgb(253, 249, 249);
  
 }
 .search {
-    width: 135%;
+    width: 90%;
     position: relative;
     display: flex;
   }
   
   .searchTerm {
-    width: 135%;
-    border: 2px solid rgb(154, 164, 165);
+    width: 100%;
+    border: 2px solid rgb(243, 248, 248);
     border-right: none;
     padding: 4px;
     height: 30px;
@@ -40,9 +39,9 @@
     width: 30px;
     height: 20x;
     border: 1px solid rgb(144, 156, 158);
-    background: rgb(132, 141, 143);
+    background: rgb(240, 243, 247);
     text-align: center;
-    color: #fff;
+    color: rgb(17, 16, 16);
     border-radius: 0 5px 5px 0;
     cursor: pointer;
     font-size: 15px;
@@ -56,15 +55,6 @@
     left: 30%;
     transform: translate(-40%, -40%);
   }
-  .as{
-
-  
-  position: relative;
-  padding: 190px 0px 120px 0px;
-  background: url('../components/img/bglog.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
   
 
   

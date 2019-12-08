@@ -1,17 +1,9 @@
-@import "https://fonts.googleapis.com/css?family=Raleway:300,400,700";
 
-  body {
-    font-family: 'vintage';
-    color: #496174;
-    background: #fff;
-    font-size: 14px;
-    line-height: 24px; 
-  }
 /* landing */
 #home {
     position: relative;
     padding: 190px 0px 120px 0px;
-    background: url('../components/img/bglog.jpg');
+    background: url('../../components/img/bglog.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
@@ -39,18 +31,18 @@
     #home .signup-form {
       font-family:'vintage';
       background-color: #fff;
-      padding: 45px;
+      padding: 35px;
       border-radius: 5px; }
       #home .sign {
         font-family: 'Raleway', sans-serif; 
-        font-size: 28px;
+        font-size: 25px;
         font-weight: bold;}
       #home .signup-form input {
         border: 1px solid #eee;
         height: 38px;
         box-shadow: none !important; }
       #home .signup-form input:focus {
-        border-color: #44c5ee; }
+        border-color: #eef58c; }
       #home .signup-form .form-control {
         font-size: 16px;
         padding: 10px 15px;
@@ -69,7 +61,7 @@
 }
 
 .top-nav-collapse {
-    background-color: #4285F4;
+    background-color: rgb(235, 236, 145);
 }
 @media only screen and (max-width: 768px) {
     .navbar {

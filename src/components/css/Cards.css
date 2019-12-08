@@ -1,0 +1,55 @@
+
+body {
+  font-family: 'vintage';
+  color: #464242;
+  background: rgb(255, 250, 175);
+  font-size: 14px;
+  line-height: 24px; 
+}
+.card {
+  display: grid;
+  grid-template-columns: 220px;
+ 
+  grid-template-areas: "image" "text" ;
+  border-radius: 18px;
+  background: rgb(254, 255, 186);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  font-family: 'DM Serif Text', serif;
+  text-align: center;
+}
+.card-text {
+  grid-area: text;
+  margin: 15px;
+}
+
+.card-text p {
+  color: grey;
+  font-size:20px;
+  font-weight: 300;
+}
+.card-text h2 {
+  margin-top:0px;
+  font-size:28px;
+}
+.card-img {
+  grid-area: image;
+  
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-size: cover;
+}
+.card:hover {
+  transform: scale(1.10);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card {
+
+  transition: 0.4s ease;
+  cursor: pointer;
+  margin:30px;
+}
+.card-profile{
+
+  font-family: 'Tienne', serif;
+  font-size: 18px;
+}
