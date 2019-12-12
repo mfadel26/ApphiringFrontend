@@ -48,11 +48,11 @@ class Cardsen extends Component {
                   {/* <br></br>*/}
                   `<div class="card" >
                   <Link to={`/profilen/${item.created_by}`} >
-                  <img src={`http://localhost:4000/myhire/file/` + item.photo} className="card-img" alt="..." /></Link>
+                  <img src={`http://54.161.87.89:7000/myhire/file/` + item.photo} className="card-img" alt="..." /></Link>
                     <div class="card-image"></div>
                     <div class="card-text">
                     <h2>{item.name}</h2>
-                      
+                    <p><i class="fa fa-map-marker"></i> Location  tester</p>
                       <p><i class="fa fa-map-marker"></i> Location  {item.location}</p>
                       <p><i class="fa fa-star"></i>Skill {item.skill}</p>
                       <span class="date"></span>
