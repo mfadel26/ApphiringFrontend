@@ -52,7 +52,7 @@ class Cardsen extends Component {
                     <div class="card-image"></div>
                     <div class="card-text">
                     <h2>{item.name}</h2>
-                    <p><i class="fa fa-map-marker"></i> Location 1 tester</p>
+                    <p><i class="fa fa-map-marker"></i> Location2 tester</p>
                       <p><i class="fa fa-map-marker"></i> Location  {item.location}</p>
                       <p><i class="fa fa-star"></i>Skill {item.skill}</p>
                       <span class="date"></span>
