@@ -21,7 +21,7 @@ class Listpro extends Component {
     event.preventDefault();
   }
   componentDidMount() {
-    axios.get('http://54.161.87.89:7000/myhire/readProject')
+    axios.get('http://localhost:7000/myhire/readProject')
     .then(res =>{
       console.log(res);
     this.setState({ items :res.data });

@@ -32,7 +32,7 @@ class Navbaren extends Component {
   componentDidMount() {
     var token = localStorage.getItem('Authorization');
     axios.defaults.headers.common['Authorization'] = token;
-    fetch('http://localhost:4000/engineer/read')
+    fetch('http://localhost:7000/engineer/read')
     .then(response => response.json())
     .then(data => this.setState({ items : data }))
     let login = localStorage.getItem('Login');
@@ -47,7 +47,7 @@ class Navbaren extends Component {
     try {
       const response = await axios({
         method: 'get',
-        url: 'http://54.161.87.89:7000/myhire/logout',
+        url: 'http://localhost:7000/myhire/logout',
       });
       console.log(response.data.result);
       localStorage.removeItem("Authorization");

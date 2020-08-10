@@ -16,7 +16,7 @@ class Profilen extends Component {
 
     var token = localStorage.getItem('Authorization');
     axios.defaults.headers.common['Authorization'] = token;
-    fetch('http://54.161.87.89:7000/engineer/by/' + idEng)
+    fetch('http://localhost:7000/engineer/by/' + idEng)
       .then(response => response.json())
       .then(data => this.setState({ arr_engineer: data[0] }))
     let login = localStorage.getItem('Login');
